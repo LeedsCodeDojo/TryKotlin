@@ -78,6 +78,22 @@ Null Pointer Exceptions are one of the most common causes of errors in Java appl
                  ?: throw IllegalArgumentException("Invalid Order")
    
 ```
+### Tuples
+Kotlin doesn't have inbuilt support for tuples so each function can only return a single value.
+
+However there are a couple of inbuilt wrapper classes for tuples with 2 or 3 components called Pair and Triple.
+
+```kotlin
+class Book(val id: Int, val title:String, val author:String, val price:Float){
+    fun getIdAndTitle(): Pair<Int, String>{
+        return Pair(id, title)
+    }
+}
+
+val idAndTitle = book.getIdAndTitle()
+val id = idAndTitle.first
+val title = idAndTitle.second
+```
 
 
 ### Control of Flow

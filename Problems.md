@@ -1,3 +1,14 @@
+### Download the "TryKotlin" project
+
+In IntelliJ:
+1. Menu Option : `File > New > Project from Version Control > GitHub`
+1. Git Repository Url: `git@github.com:LeedsCodeDojo/TryKotlin.git` 
+
+Project contains:
+- `src` folders
+- `build.gradle` which defines external dependencies
+- Cheatsheet which provides syntax hints & tips
+
 
 ### Problem 1 - Hello World
 1. Create a main() function which just prints "Hello, World".
@@ -16,9 +27,10 @@
 
 ### Problem 3 - Simplification of Java Classes
 3 Java classes (JAddress, JCompany, and JPerson) have been created in dojo.leeds.problem3.
-Convert these classes to Kotlin data classes to see how much boilerplate code can be removed.
-Remember that Kotlin allows multiple classes to be defined in a single file.
 
+Convert these classes to Kotlin data classes to see how much boilerplate code can be removed.
+
+Remember that Kotlin allows multiple classes to be defined in a single file.
 
 ### Problem 4 - Working with Collections
 1. Create a Pupil Data class to hold the details of each line and their associate scores in English, Maths and Science.
@@ -32,7 +44,6 @@ Remember that Kotlin allows multiple classes to be defined in a single file.
   - Which students were awarded 3 grade 'A's?
   - Which students were awarded at least a 'C' in all subjects?
   - Which were the highest scoring Boy & Girl in each class?
-
 
 ### Problem 5 - Got to Catch Them All (or at least 1 of them)
 This problem uses Kotlin to create a basic REST client using JSON over HTTP.
@@ -75,5 +86,4 @@ For example:
 - Hegemony : https://code.google.com/codejam/contest/2334486/dashboard
 
 All contests can be found here: https://code.google.com/codejam/past-contests
-
 
