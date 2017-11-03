@@ -6,7 +6,7 @@ import org.junit.Test
 
 class FizzBuzzTest {
 
-/*    @Test
+    @Test
     fun `given a number which is divisble by 3 then should return "Fizz"`(){
         assertThat(fizzBuzzValue(3), equalTo("Fizz"))
         assertThat(fizzBuzzValue(9), equalTo("Fizz"))
@@ -42,5 +42,5 @@ class FizzBuzzTest {
         val expectedValues = listOf("1","2","Fizz","4","Buzz","Fizz", "7", "8",
                 "Fizz", "Buzz", "11", "Fizz", "13", "14", "Fizz Buzz", "16", "17", "Fizz", "19", "Buzz")
         assertThat(fizzBuzz(20), equalTo(expectedValues))
-    } */
+    }
 }
